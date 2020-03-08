@@ -306,6 +306,30 @@ body {
   background-blend-mode: multiply;
 }
 
+.hero-button-group {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 40;
+}
+
+.hero-button-group a {
+  position: relative;
+  z-index: 100;
+  display: inline-block;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 2rem;
+
+  padding: 0.4em 2em;
+  margin: 0.2em;
+  border-radius: 20px;
+  background-color: #03cbfb;
+  font-family: Teko;
+  border: 0;
+  color: #0f1952;
+}
+
 @media only screen and (min-width: 1024px) {
   .call-to-action {
     background-color: lightblue;
@@ -334,28 +358,4 @@ body {
     padding: 1em 2em;
     margin: 1em;
   }
-}
-
-.hero-button-group {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  z-index: 40;
-}
-
-.hero-button-group a {
-  position: relative;
-  z-index: 100;
-  display: inline-block;
-  cursor: pointer;
-  text-transform: uppercase;
-  font-size: 2rem;
-
-  padding: 0.4em 2em;
-  margin: 0.2em;
-  border-radius: 20px;
-  background-color: #03cbfb;
-  font-family: Teko;
-  border: 0;
-  color: #0f1952;
 }
