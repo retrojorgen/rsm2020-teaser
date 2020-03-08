@@ -328,10 +328,18 @@ body {
   .animation-box {
     max-width: auto;
   }
+  .hero-button-group {
+    flex-direction: row;
+  }
+  .hero-button-group a {
+    padding: 0.4em 2em;
+    margin: 0.2em;
+  }
 }
 
 .hero-button-group {
   display: flex;
+  flex-direction: column;
 }
 
 .hero-button-group a {
@@ -347,4 +355,5 @@ body {
   background-color: #03cbfb;
   font-family: Teko;
   border: 0;
+  color: #0f1952;
 }
