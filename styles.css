@@ -191,7 +191,7 @@ body {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
-  z-index: 80;
+  z-index: 0;
   max-width: 100px;
 }
 
@@ -339,6 +339,8 @@ body {
 .hero-button-group {
   display: flex;
   flex-direction: column;
+  position: relative;
+  z-index: 40;
 }
 
 .hero-button-group a {
