@@ -21,6 +21,15 @@ a {
   color: inherit;
 }
 
+.page-header {
+  text-align: center;
+  font-size: 3rem;
+}
+
+p + .section-header {
+  margin-top: 40px;
+}
+
 .hero {
 }
 
